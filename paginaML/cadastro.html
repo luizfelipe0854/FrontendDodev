@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Mercado Livre</title>
+</head>
+<body>
+    <header>
+        <section class="searchBar">
+            <input type="text" id="searchBox">
+        </section>
+        <section class="nav-bar">
+            <a href="./categorias.html">Categorias</a>
+            <a href="./ofertas.html">Ofertas do dia</a>
+            <a href="./historico.html">Historico</a>
+            <a href="./moda.html">Moda</a>
+            <a href="./cadastro.html" id="signin">Cadastro</a>
+        </section>
+    </header>
+    <section  class="content">
+        <form class="signin-form">
+            <section>
+                <label for="name" name="nome">Nome:</label>
+                <input type="text" id="name" placeholder="Digite seu nome">
+            </section>
+            <section>
+                <label for="email" name="email">Email:</label>
+                <input type="text" id="email" placeholder="Digite seu email">
+            </section>
+            <section>
+                <label for="senha" name="senha">Senha:</label>
+                <input type="password" id="senha" placeholder="Digite sua senha">
+            </section>
+            <section>
+                <label for="second-senha" name="repitasenha">Repita sua senha:</label>
+                <input type="password" id="second-senha" placeholder="Repita sua senha">
+            </section>
+            <section>
+                <label for="sexo">Sexo:</label>
+                <select id="sexo">
+                    <option value="Masculino">Masculino</option>
+                    <option value="Feminino">Feminino</option>
+                    <option value="Outro">Outro</option>
+                </select>
+            </section>
+
+        </form>
+    </section>
