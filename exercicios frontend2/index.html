@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form id="form" action="api.flit.com.br/submeterDados" method="post">
+        <div>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco">
+        </div>
+        <div>
+            <label>Dias de funcionamento</label><br>
+            <label for="segunda">Segunda</label>
+            <input type="checkbox" id="segunda" name="segunda">
+            <label for="terca">Terca</label>
+            <input type="checkbox" id="terca" name="terca">
+            <label for="quarta">Quarta</label>
+            <input type="checkbox" id="quarta" name="quarta">
+            <label for="quinta">Quinta</label>
+            <input type="checkbox" id="quinta" name="quinta">
+            <label for="sexta">Sexta</label>
+            <input type="checkbox" id="sexta" name="sexta">
+            <label for="sabado">Sabado</label>
+            <input type="checkbox" id="sabado" name="sabado">
+            <label for="domingo">Domingo</label>
+            <input type="checkbox" id="domingo" name="domingo">     
+        </div>
+        <div>
+            <label>Horário de funcionamento</label><br>
+            <label for="abertura">Horário de abertura</label>
+            <input type="time" id="abertura" name="abertura">
+            <label for="fechamento">Horário de fechamento</label>
+            <input type="time" id="fechamento" name="fechamento">
+        </div>
+        <input type="submit" id="submit">
+    </form>
+    
+</body>
+</html>
